@@ -53,8 +53,8 @@ monitor_service(30) do
         auto_response(message_arr[dif-1].from)
         dif -= 1 
       end
-     start_size = curr_size
     end
+     start_size = curr_size
   end
 end
 
